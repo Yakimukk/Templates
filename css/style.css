@@ -108,7 +108,6 @@ img {
 .header .header-bottom .header-menu {
   color: #fff;
   text-decoration: none;
-  font-style: normal;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.05em;
@@ -131,6 +130,11 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+.header .header-container .header-conacts-value {
+  font-size: 16px;
+  line-height: 19px;
+  color: #000;
 }
 
 .hero {
@@ -282,12 +286,29 @@ img {
   background-color: #C8A35F;
   margin-top: 50px;
 }
+.perevozki .perevozki-content .content-text {
+  display: none;
+}
+.perevozki .perevozki-content .active-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 .perevozki .perevozki-content .content-img {
+  max-width: 445px;
   padding-top: 40px;
   padding-left: 30px;
 }
 .perevozki .perevozki-content .content-img .arrow-content {
   display: none;
+}
+.perevozki .perevozki-content .content-img {
+  display: none;
+}
+.perevozki .perevozki-content .active-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 .perevozki .perevozki-content .content-botton {
   display: -webkit-box;
