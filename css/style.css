@@ -134,7 +134,11 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-left: 30px;
+  margin-left: 30px;
+}
+.header .header-bottom .header-menu a:hover {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #fff;
 }
 .header .header-container {
   display: -webkit-box;
@@ -314,6 +318,10 @@ img {
   text-transform: uppercase;
   background-color: #C8A35F;
   margin-top: 50px;
+}
+.perevozki .perevozki-content .active-text .more:hover {
+  color: #fff;
+  background-color: #2F343A;
 }
 .perevozki .perevozki-content .content-img {
   display: none;
@@ -596,11 +604,7 @@ img {
 }
 
 .map {
-  min-height: 450px;
-  background-image: url(../img/maps.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  height: 450px;
 }
 
 footer {

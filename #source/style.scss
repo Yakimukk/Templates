@@ -115,7 +115,12 @@ img {
             text-transform: uppercase;
             display: flex;
             align-items: center;
-            padding-left: 30px;
+            margin-left: 30px;
+            
+            a:hover{
+                padding-bottom: 5px;
+                border-bottom: 1px solid #fff;
+            }
         }      
     }
     .header-container {
@@ -233,6 +238,10 @@ img {
                 text-transform: uppercase;
                 background-color: #C8A35F;
                 margin-top: 50px;
+                &:hover{
+                    color: #fff;
+                    background-color: #2F343A;
+                }
             }
         }
         .content-img{
@@ -441,11 +450,7 @@ img {
 }
 
 .map{
-    min-height: 450px;
-    background-image: url(../img/maps.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    height: 450px;
 }
 
 footer {

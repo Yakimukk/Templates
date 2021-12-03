@@ -35,6 +35,9 @@ function changeSlide(direction) {
 }
 
 function removeContent() {
+    //contentTexts[activeSlideIndex].style = transition('transform 0.5s ease-in-out')
     contentTexts[activeSlideIndex].classList.remove('active-text')
+    //contentImgs[activeSlideIndex].style = transition('transform 0.5s ease-in-out')
     contentImgs[activeSlideIndex].classList.remove('active-img')
+    
 }
